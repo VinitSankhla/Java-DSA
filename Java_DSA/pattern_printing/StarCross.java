@@ -1,0 +1,7 @@
+package pattern_printing;
+
+public class StarCross {
+    public static void main(String[] args) {
+        
+    }
+}
