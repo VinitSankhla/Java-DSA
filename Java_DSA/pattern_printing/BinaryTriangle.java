@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BinaryTriangle {
     public static void main(String[] args) {
-        int a=1;
+        // int a=1;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of rows you want to print in Binary Triangle : ");
         int x = sc.nextInt();
@@ -15,8 +15,10 @@ public class BinaryTriangle {
         }
         for (int i=1;i<=x;i++){
                 for (int j=1;j<=i;j++){
-                        System.out.print(a + " ");
-                        a^=1;
+                        if ((i+j)%2==0) {
+                            System.out.print(1 + " ");
+                        }
+                        else {System.out.print(0+" ");}
             }
             System.out.println();
         }
