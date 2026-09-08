@@ -20,7 +20,8 @@ public class arrayInputOutput {
             arr1 [i] = sc.nextInt();
         }
         for(int i=0;i<arr1.length;i++){
-            System.out.print(arr1[i]+" "); //by defalut values are 0
+            System.out.print(arr1[i]+" ");
         }
+        sc.close();
     }
 }
